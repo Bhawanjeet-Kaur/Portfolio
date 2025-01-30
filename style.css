@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: poppins;
+    background-color: #ebe8db;
+    color: #000;
+    margin:0;
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+Header{
+    width: 1140px;
+    max-width:80%;
+    margin:auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+header a{
+    margin-right: 40px;
+}
+.readables{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-top:-50px;
+    position: relative;
+}
+.readables .list .item{
+    position: absolute;
+    top :30%;
+    width:1140px;
+    max-width:80%;
+    left: 50%;
+    transform: translatex(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color:#000;
+    text-shadow: 0 5px 10px #0044;
+}
+.readables .list .item .author{
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-size: 5em;
+}
+.readables .list .item .cat,
+.readables .list .item .profession{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.readables .list .item .projects{
+    margin-top: 30px;
+}
+.readables .list .item button{
+    border: none;
+    background-color: #f1683a;
+    letter-spacing: 3px;
+    font-family: poppins;
+    font-weight: 700;
+    height: 40px;
+    width: 130px;
+}
