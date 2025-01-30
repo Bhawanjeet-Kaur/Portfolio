@@ -41,16 +41,34 @@ header a{
     color:#000;
     text-shadow: 0 5px 10px #0044;
 }
-.readables .list .item .author{
+/* AUTHOR TEXT & ANIMATION */
+.author-container {
+    position: relative;
+    display: inline-block;
+}
+.author{
     font-weight:bold;
     letter-spacing: 2px;
     font-size: 5em;
+    color: black;
+    position: relative;
+    clip-path: inset(0 0 100% 0); /* Initially hidden */
+    transition: clip-path 1s ease-out;
+}
+/* Orange Line */
+.line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #f1683a;
+    top: 0;
+    left: 0;
 }
 .readables .list .item .cat,
 .readables .list .item .profession{
     letter-spacing: 2px;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .readables .list .item .projects{
     margin-top: 30px;
