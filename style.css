@@ -10,18 +10,20 @@ a{
     text-decoration: none;
     color: #000;
 }
-Header{
-    width: 1140px;
+header{
+    width: 100%;
     max-width:80%;
     margin:auto;
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     z-index: 100;
+    position: relative;
 }
 header a{
     margin-right: 40px;
 }
+/*
 .readables{
     width: 100vw;
     height: 100vh;
@@ -29,6 +31,7 @@ header a{
     margin-top:-50px;
     position: relative;
 }
+    */
 .readables .list .item{
     position: absolute;
     top :30%;
@@ -81,4 +84,5 @@ header a{
     font-weight: 700;
     height: 40px;
     width: 130px;
+    cursor: pointer;
 }

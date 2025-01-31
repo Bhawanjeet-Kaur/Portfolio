@@ -23,4 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
             clearInterval(interval); // Stop animation when the line reaches the bottom
         }
     }, intervalTime); // Smooth animation effect
+    // Ensure links navigate properly
+    aboutLink.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default behavior if needed
+        window.location.href = "about.html"; // Navigate to About page
+    });
+
+    // Make the Projects button work as a link
+    projectsButton.addEventListener("click", function () {
+        window.location.href = "projects.html"; // Redirect to Projects page
+    });
 });
