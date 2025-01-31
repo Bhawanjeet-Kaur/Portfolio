@@ -30,7 +30,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Make the Projects button work as a link
-    projectsButton.addEventListener("click", function () {
-        window.location.href = "projects.html"; // Redirect to Projects page
-    });
+    const projectButton = document.getElementById("projectButton");
+
+    if (projectButton) { // Ensure the button exists before adding an event listener
+        projectButton.addEventListener("click", function () {
+            window.location.href = "projects.html"; // Redirect to Projects page
+        });
+    }
 });
