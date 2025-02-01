@@ -86,3 +86,40 @@ header a{
     width: 130px;
     cursor: pointer;
 }
+footer {
+    position: fixed; /* Sticks to the bottom */
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+.email-section {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+}
+.email {
+    font-size: 16px;
+    color: #333;
+}
+.email:hover {
+    color: #f1683a;
+}
+
+.social-icons img {
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
