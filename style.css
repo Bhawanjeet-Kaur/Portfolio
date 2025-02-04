@@ -12,15 +12,17 @@ a{
 }
 header{
     width: 100%;
-    max-width:80%;
+    max-width:100%;
     margin:auto;
     height: 60px;
     display: flex;
     align-items: center;
     z-index: 100;
     position: relative;
+    
 }
 header a{
+    margin-left: 155px;
     margin-right: 40px;
 }
 /*
@@ -122,4 +124,24 @@ footer {
 
 .social-icons img:hover {
     transform: scale(1.2);
+}
+/*My profile picture in tha about section*/
+.selfPotrait{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    width: 370px;
+    height: 370px;
+    overflow: hidden;
+}
+.selfPotrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the div without distortion */
+}
+.description{
+    top: 100px;
+    left: 500px;
+    position: absolute;
+    width: 800px;
 }
