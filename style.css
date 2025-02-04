@@ -10,6 +10,9 @@ a{
     text-decoration: none;
     color: #000;
 }
+a:hover{
+    color: #f1683a;
+}
 header{
     width: 100%;
     max-width:100%;
@@ -128,10 +131,10 @@ footer {
 /*My profile picture in tha about section*/
 .selfPotrait{
     position: absolute;
-    top: 90px;
-    left: 90px;
-    width: 370px;
-    height: 370px;
+    top: 180px;
+    left: 140px;
+    width: 480px;
+    height: 480px;
     overflow: hidden;
 }
 .selfPotrait img {
@@ -140,8 +143,8 @@ footer {
     object-fit: cover; /* Ensures the image fills the div without distortion */
 }
 .description{
-    top: 100px;
-    left: 500px;
+    top: 200px;
+    left: 700px;
     position: absolute;
-    width: 800px;
+    width: 600px;
 }
